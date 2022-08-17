@@ -96,4 +96,9 @@
   color: lightgray;
   cursor: pointer;
 }
+
+.date {
+  position: absolute;
+  top: 50px;
+}
 /*# sourceMappingURL=header.css.map */
