@@ -78,25 +78,28 @@ const Header = () => {
                 <div className="headerSearchItem">
                     <FontAwesomeIcon icon={faPerson} className="headerIcon"/>
                     <span className="headerSearchText">{`${options.adult} adult ${options.children} children ${options.room} room`}</span>
-                <div className="optionItem">
-                    <span className="optionText">Adult</span>
-                    <button className="optionCount">-</button>
-                    <span className="optionCounterNumber">{options.adult}</span>
-                    <button className="optionCount">-</button>
+                    <div className="options">
+                        <div className="optionItem">
+                            <span className="optionText">Adult</span>
+                            <button className="optionCount">-</button>
+                            <span className="optionCounterNumber">{options.adult}</span>
+                            <button className="optionCount">-</button>
+                        </div>
+                        <div className="optionItem">
+                            <span className="optionText">Children</span>
+                            <button className="optionCount">-</button>
+                            <span className="optionCounterNumber">{options.children}</span>
+                            <button className="optionCount">-</button>
+                        </div>
+                        <div className="optionItem">
+                            <span className="optionText">Rooms</span>
+                            <button className="optionCount">-</button>
+                            <span className="optionCounterNumber">{options.room}</span>
+                            <button className="optionCount">-</button>
+                        </div>
+                    </div>
                 </div>
-                <div className="optionItem">
-                    <span className="optionText">Children</span>
-                    <button className="optionCount">-</button>
-                    <span className="optionCounterNumber">{options.children}</span>
-                    <button className="optionCount">-</button>
-                </div>
-                <div className="optionItem">
-                    <span className="optionText">Rooms</span>
-                    <button className="optionCount">-</button>
-                    <span className="optionCounterNumber">{options.room}</span>
-                    <button className="optionCount">-</button>
-                </div>
-                </div>
+
                 <div className="headerSearchItem">
                    <button className="headerBtn">Search</button> 
                 </div>
