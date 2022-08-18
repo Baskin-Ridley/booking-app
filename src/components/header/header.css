@@ -1,12 +1,8 @@
 .header {
   background-color: #003580;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: relative;
 }
 
@@ -17,20 +13,14 @@
 }
 
 .headerList {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 40px;
   margin-bottom: 50px;
 }
 
 .headerListItem {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 10px;
 }
 
@@ -57,14 +47,9 @@
   height: 30px;
   background-color: white;
   border: 3px solid #febb02;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
   padding: 10px 0px;
   border-radius: 5px;
   position: absolute;
@@ -78,13 +63,10 @@
 }
 
 .headerSearchItem {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 10px;
+  color: lightgray;
 }
 
 .headerSearchInput {
@@ -100,5 +82,4 @@
 .date {
   position: absolute;
   top: 50px;
-}
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */
