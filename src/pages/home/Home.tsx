@@ -8,8 +8,7 @@ const Home = () => {
       <Navbar/>
       <Header type={undefined}/>
       <div className="homeContainer">
-        <Featured/>
-        
+        <Featured/> 
       </div>
     </div>
   )
