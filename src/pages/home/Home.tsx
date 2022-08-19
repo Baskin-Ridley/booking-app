@@ -20,7 +20,7 @@ const Home = () => {
         <FeaturedProperties/>
       </div>
       <MailList/>
-      <Footer/>
+      {/*<Footer/> currently disabled as styling is not perfect*/}
     </div>
   )
 }
