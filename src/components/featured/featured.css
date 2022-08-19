@@ -1,1 +1,13 @@
-/*# sourceMappingURL=featured.css.map */
+.featured {
+  width: 100%;
+  max-width: 1024;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.featuredImg {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=featured.css.map */
