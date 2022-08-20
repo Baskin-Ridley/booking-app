@@ -16,7 +16,7 @@ const Header = ({type}) => {
 
     const [openDate, setOpenDate] = useState(false);
 
-    const [state, setState] = useState([
+    const [date, setDate] = useState([
         {
           startDate: new Date(),
           endDate: new Date(),
@@ -87,12 +87,12 @@ const Header = ({type}) => {
                 </div>
                 <div className="headerSearchItem">
                     <FontAwesomeIcon icon={faCalendarDays} className="headerIcon"/>
-                    <span onClick={() => setOpenDate(!openDate)} className="headerSearchText">{`${format(state[0].startDate, "dd/MM/yyyy")} to ${format(state[0].endDate, "dd/MM/yyyy")}`}</span>
+                    <span onClick={() => setOpenDate(!openDate)} className="headerSearchText">{`${format(date[0].startDate, "dd/MM/yyyy")} to ${format(date[0].endDate, "dd/MM/yyyy")}`}</span>
                     {openDate && <DateRange
                     editableDateInputs={true}
-                    onChange={item => setState([item.selection])}
+                    onChange={item => setDate([item.selection])}
                     moveRangeOnFirstSelection={false}
-                    ranges={state}
+                    ranges={date}
                     className="date"
                     />}
                 </div>

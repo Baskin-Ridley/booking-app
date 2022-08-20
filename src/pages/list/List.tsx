@@ -2,7 +2,12 @@ import React from 'react'
 import Navbar from '../../components/navbar/navbar'
 import Header from '../../components/header/Header'
 import "./list.css"
+import { useLocation } from 'react-router-dom'
 const List = () => {
+
+  const location = useLocation()
+  console.log(location)
+
   return (
     <div>
       <Navbar/>
