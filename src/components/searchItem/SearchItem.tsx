@@ -8,7 +8,7 @@ const SearchItem = () => {
         className="siImg" />
         
         <div className="siDesc">
-            <span className="siTitle">Apartments</span>
+            <h1 className="siTitle">Apartments</h1>
             <span className="siDistance">500m from center</span>
             <span className="siTaxiOp">Free Airport Taxi</span>
             <span className="siSubtitle">Studio apartment</span>
@@ -18,8 +18,8 @@ const SearchItem = () => {
                 You can cancel later, so lock in this great price today.
             </span>
         </div>
-        <div className="siDe">
-
+        <div className="siDetails">
+            details
         </div>
     </div>
   )
