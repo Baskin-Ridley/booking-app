@@ -1,4 +1,3 @@
-import React from 'react'
 import "./searchItem.css"
 const SearchItem = () => {
   return (
@@ -19,7 +18,15 @@ const SearchItem = () => {
             </span>
         </div>
         <div className="siDetails">
-            details
+            <div className="siRating">
+                <span>Excellent</span>
+                <button>9.5</button>
+                <div className="siDetailTexts">
+                    <span className="siPrice">£223</span>
+                    <span className="siTaxOp">Includes taxes and fees</span>
+                    <button className="siCheckButton">See availability</button>
+                </div>
+            </div>
         </div>
     </div>
   )
