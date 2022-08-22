@@ -55,3 +55,29 @@
     flex: 3;
 }
 
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-style: 12px;
+}
+
+.lsOptionInput{
+    width: 50px;
+}
+
+.lsOptions{
+    padding: 10px;
+
+}
+
+.listSearch>button{
+    background-color: #0071c2;
+    padding: 10px;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
