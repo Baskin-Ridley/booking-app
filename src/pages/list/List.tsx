@@ -12,8 +12,9 @@ const List = () => {
   console.log(location)
   const [destination,setDestination] = useState(location.state.destination)
   const [date, setDate] = useState(location.state.date)
+  const [openDate, setOpenDate] = useState(false);
   const [options, setOptions] = useState(location.state.options)
-
+  
   return (
     <div>
       <Navbar/>
@@ -28,13 +29,14 @@ const List = () => {
             </div>
             <div className="lsItem">
               <label htmlFor="check-in date">Check-in Date</label>
-              <span>
+              <span onClick={() => setOpenDate(!openDate)}>
                 {`${format(date[0].startDate, "dd/MM/yyyy")} to ${format(date[0].endDate, "dd/MM/yyyy")}`}
                 </span>
+                {openDate && 
                 <DateRange
                 onChange={item => setDate([item.selection])}
                 minDate={new Date()}
-                />
+                />}
             </div>
             <div className="lsItem">
               <label htmlFor="Destination">Destination</label>
