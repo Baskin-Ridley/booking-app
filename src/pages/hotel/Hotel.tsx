@@ -26,6 +26,7 @@ const Hotel = () => {
       <Header type="list"/>
       <div className="hotelContainer">
         <div className="hotelWrapper">
+          <button className="bookNow">Reserve or Book now</button>
           <h1 className="hotelTitle">King's Cross Hotel</h1>
           <div className="hotelAddress">
             <FontAwesomeIcon icon={faLocationDot}/>
