@@ -9,7 +9,7 @@ const Featured = () => {
             className="featuredImg"/>
             <div className="featuredTitles">
                 <h1>London</h1>
-                <h1>420 properties</h1>
+                <h1>224 properties</h1>
             </div>
         </div>
         <div className="featuredItem">
@@ -18,7 +18,7 @@ const Featured = () => {
             className="featuredImg"/>
             <div className="featuredTitles">
                 <h1>London</h1>
-                <h1>420 properties</h1>
+                <h1>242 properties</h1>
             </div>
         </div>
         <div className="featuredItem">
@@ -27,7 +27,7 @@ const Featured = () => {
             className="featuredImg"/>
             <div className="featuredTitles">
                 <h1>London</h1>
-                <h1>420 properties</h1>
+                <h1>304 properties</h1>
             </div>
         </div>
 
