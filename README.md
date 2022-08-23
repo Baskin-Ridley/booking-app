@@ -1,5 +1,8 @@
 # Mern Stack Booking App
 
+First public draft with placeholder images and text:
+https://baskin-ridley.github.io/booking-app/
+
 🚧This is currently a work in progress🚧
 
 The app is a clone of booking.com
