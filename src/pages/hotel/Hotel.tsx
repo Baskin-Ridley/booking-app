@@ -3,6 +3,8 @@ import Navbar from "../../components/navbar/navbar"
 import Header from "../../components/header/Header"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons"
+import MailList from "../../components/mailList/MailList"
+import Footer from "../../components/footer/Footer"
 
 
 const Hotel = () => {
@@ -89,6 +91,8 @@ const Hotel = () => {
             
           </div>
         </div>
+        <MailList/>
+        {/*<Footer/> disabled for incomplete styling*/}
       </div>
     </>
   )
