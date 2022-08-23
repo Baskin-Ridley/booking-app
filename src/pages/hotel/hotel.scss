@@ -10,6 +10,21 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    position: relative;
+}
+
+.bookNow {
+    position: absolute;
+    top: 10;
+    right: 0;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    
 }
 
 .hotelTitle {
