@@ -63,21 +63,21 @@ const List = () => {
                   >
                     Adult
                   </span>
-                  <input type="number" min={1} className="lsOptionInput" placeholder={options.adult}/>
+                  <input type="number" min={1} className="lsOptionInput" placeHolder={options.adult}/>
                 </div>
                 <div className="lsOptionItem">
                   <span className="lsOptionText"
                   >
                     Children
                   </span>
-                  <input type="number" min={0} className="lsOptionInput" placeholder={options.children}/>
+                  <input type="number" min={0} className="lsOptionInput" placeHolder={options.children}/>
                 </div>
                 <div className="lsOptionItem">
                   <span className="lsOptionText"
                   >
                     Room
                   </span>
-                  <input type="number" min={1} className="lsOptionInput" placeholder={options.room}/>
+                  <input type="number" min={1} className="lsOptionInput" placeHolder={options.room}/>
                 </div>
                 </div>
             </div>
